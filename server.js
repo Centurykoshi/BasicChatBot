@@ -12,6 +12,7 @@ app.use(express.static("public"));
 
 
 
+
 app.get('/', (req, res)=>{
     res.sendFile(join(__dirname, "public","index.html")); 
 })
